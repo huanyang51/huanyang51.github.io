@@ -32,6 +32,9 @@
 
 }
 
+#main-content.wrap{
+    margin-top:0;
+}
 
 nav{
     margin:0 auto;
@@ -78,6 +81,7 @@ a{
 .entire-content{
     background-color: #eeeeee;
     margin:0 auto;
+    padding:30px 0 90px 0;
 }
 .subtitle-area{
     border-bottom: 2px solid #cccccc;
@@ -91,4 +95,10 @@ p{
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
 
+}
+
+footer{
+    height:50px;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
 }
