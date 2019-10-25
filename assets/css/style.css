@@ -80,6 +80,7 @@ a{
 }
 .entire-content{
     background-color: #eeeeee;
+    /* background-image */
     margin:0 auto;
     padding:30px 0 90px 0;
 }
@@ -101,4 +102,24 @@ footer{
     height:50px;
     background-color: #666666;
     border-top: 5px solid #4aaaa5;
+}
+
+/* style for contact form */
+input.inputform{
+    width: 100%;
+    height: 30px;
+}
+input#message{
+    height: 200px;
+    margin-bottom: 10px;
+}
+p.label{
+    margin-bottom: 0;
+}
+input.submit{
+    background-color: #4aaaa5;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
