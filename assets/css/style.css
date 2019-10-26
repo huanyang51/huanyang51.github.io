@@ -55,7 +55,7 @@ nav li{
     text-align: right;
     padding-right: 0;
 }
-img{
+img#profile-image{
     float: left;
     margin: 20px 20px 20px 0;
 }
@@ -128,15 +128,20 @@ input.submit{
 .gallery-image{
     height:320px;
     width: 240px;
-    float: left;
+    margin: 30px 40px 30px 0;
 }
 /* put text on top of gallery image */
 .container{
     position: relative;
+    float:left;
 }
-.text-on-image{
+.text-block{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    bottom: 60px;
+    background-color: #4aaaa5;
+    padding: 0 25px;
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 190px;
 }
