@@ -221,6 +221,7 @@ ul {
 }
 .subtitle-area {
   border-bottom: 2px solid #cccccc;
+  margin: 0;
 }
 
 img#profile-image {
