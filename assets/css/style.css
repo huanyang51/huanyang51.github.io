@@ -1,4 +1,4 @@
-/* #title-area {
+#title-area {
   margin: 0 auto;
   display: block;
   line-height: 96px;
@@ -42,8 +42,8 @@ nav {
   width: 35%;
   float: right;
   background-color: #ffffff;
-} */
-/* ul {
+}
+ul {
   margin: 0 auto;
   padding-right: 0;
 }
@@ -60,9 +60,9 @@ img#profile-image {
   content: "";
   clear: both;
   display: table;
-} */
+}
 
-/* a {
+a {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   color: #777777;
@@ -74,10 +74,10 @@ img#profile-image {
 }
 #nav-end {
   padding-right: 0;
-} */
-/* .entire-content {
+}
+.entire-content {
   background-image: url(../images/trees.png);
-  /* background-image 
+  /* background-image */
   margin: 0 auto;
   padding: 30px 0 90px 0;
 }
@@ -88,11 +88,11 @@ img#profile-image {
   color: #4aaaa5;
   font-family: Georgia, "Times New Roman", Times, serif;
   padding-left: 20px;
-} 
+}
 p {
   color: #777777;
   font-family: Arial, Helvetica, sans-serif;
-}*/
+}
 
 footer {
   height: 50px;
@@ -101,7 +101,7 @@ footer {
 }
 
 /* style for contact form */
-/* input.inputform {
+input.inputform {
   width: 100%;
   height: 30px;
 }
@@ -111,7 +111,7 @@ input#message {
 }
 p.label {
   margin-bottom: 0;
-} */
+}
 input.submit {
   background-color: #4aaaa5;
   padding: 10px 20px;
@@ -163,99 +163,4 @@ body {
 .footer,
 .push {
   height: 50px;
-}
-
-/* style for Bootstrap-Portfolio */
-.img-fluid {
-  max-width: 20%;
-  height: auto;
-}
-.container-fluid {
-  max-width: 80%;
-  padding: 0;
-}
-.entire-content {
-  background-image: url(../images/trees.png);
-  /* background-image */
-  margin: 0 auto;
-  padding: 30px 0 90px 0;
-}
-
-#title {
-  margin: 0 auto;
-  background-color: #4aaaa5;
-  padding: 10px 20px 10px 20px;
-  color: #ffffff;
-  text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-.header {
-  overflow: hidden;
-  background-color: #ffffff;
-  border-bottom: 2px solid #cccccc;
-}
-
-a {
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #777777;
-  padding: 0 20px 0 20px;
-  border-left: 1px solid #dddddd;
-}
-a:hover {
-  /* choose a close color with color wheel */
-  color: #4ca8c2;
-}
-
-ul {
-  margin: 0 auto;
-  padding-right: 0;
-}
-
-.subtitle {
-  color: #4aaaa5;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  padding: 10px, 20px;
-  margin: 0;
-  text-align: center;
-}
-.subtitle-area {
-  border-bottom: 2px solid #cccccc;
-  margin: 0;
-}
-
-img#profile-image {
-  float: left;
-  margin: 20px 20px 20px 0;
-}
-p {
-  color: #777777;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.content-area {
-  background-color: #ffffff;
-}
-
-/* style for contact page */
-.btn {
-  background-color: #4aaaa5;
-  padding: 10px 20px;
-  color: #ffffff;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  border-color: #4aaaa5;
-}
-
-/* style for portfolio page */
-
-.card-img-overlay {
-  position: absolute;
-  top: 70%;
-  bottom: 10%;
-  background-color: #4aaaa5;
-  padding: 0 25px;
-  color: #ffffff;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
 }
