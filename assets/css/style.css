@@ -55,6 +55,8 @@ nav li {
 img#profile-image {
   float: left;
   margin: 20px 20px 20px 0;
+  height: 160px;
+  width: 120px;
 }
 .clearfix::after {
   content: "";
