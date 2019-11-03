@@ -133,13 +133,19 @@ input.submit {
 #summer,
 #autumn2 {
   margin-right: 0;
+  /* float: right; */
 }
 
 /* put text on top of gallery image */
-.container {
+.container-left {
   position: relative;
   float: left;
 }
+.container-right {
+  position: relative;
+  float: right;
+}
+
 .text-block {
   position: absolute;
   bottom: 60px;
@@ -201,6 +207,13 @@ body {
     width: 85%;
     margin: 0, auto;
   }
+  /* .gallery-image {
+    width: 50%;
+    height: auto;
+  }
+  .text-block {
+    width: 50%;
+  } */
 }
 
 /* Large devices (laptops/desktops, 980px and up) */
@@ -208,7 +221,20 @@ body {
   #main-content {
     border: 1px solid #dddddd;
     padding: 35px;
-    width: 720px;
+    width: 65%;
     margin: 30px;
+  }
+  .container-left,
+  .container-right {
+    width: 50%;
+    height: auto;
+  }
+  .gallery-image {
+    width: 90%;
+    height: auto;
+  }
+
+  .text-block {
+    width: 90%;
   }
 }
