@@ -3,16 +3,16 @@
   display: block;
   line-height: 96px;
   height: 96px;
-  width: 30%;
   float: left;
 }
 #title {
-  margin: 0 auto;
+  margin: 0 30px;
   background-color: #4aaaa5;
-  padding: 0px 40px 0px 40px;
+  padding: 0px 20px 0px 20px;
   color: #ffffff;
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
+  width: 45%;
 }
 .header {
   overflow: hidden;
@@ -20,7 +20,7 @@
   border-bottom: 2px solid #cccccc;
 }
 .wrap {
-  width: 960px;
+  width: 100%;
   margin: 0 auto;
   background-color: #ffffff;
 }
@@ -36,12 +36,13 @@
 }
 
 nav {
-  margin: 0 auto;
+  margin: 0 30px;
   line-height: 96px;
   height: 96px;
   width: 35%;
   float: right;
   background-color: #ffffff;
+  text-align: end;
 }
 ul {
   margin: 0 auto;
@@ -49,7 +50,7 @@ ul {
 }
 nav li {
   display: inline;
-  text-align: right;
+
   padding-right: 0;
 }
 img#profile-image {
@@ -106,6 +107,7 @@ footer {
 input.inputform {
   width: 100%;
   height: 30px;
+  border: 1px solid #cccccc;
 }
 input#message {
   height: 200px;
@@ -124,10 +126,15 @@ input.submit {
 
 /* style for gallery image */
 .gallery-image {
-  height: 320px;
-  width: 240px;
-  margin: 30px 40px 30px 0;
+  height: 440px;
+  width: 330px;
+  margin: 40px 60px 0 0;
 }
+#summer,
+#autumn2 {
+  margin-right: 0;
+}
+
 /* put text on top of gallery image */
 .container {
   position: relative;
@@ -137,11 +144,11 @@ input.submit {
   position: absolute;
   bottom: 60px;
   background-color: #4aaaa5;
-  padding: 0 25px;
+  padding: 0, 25px;
   color: #ffffff;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  width: 190px;
+  width: 330px;
 }
 
 /* change text color when hovered */
@@ -165,4 +172,43 @@ body {
 .footer,
 .push {
   height: 50px;
+}
+
+/* Small devices (portrait tablets and large phones, 640px and up) */
+@media only screen and (min-width: 640px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #title-area {
+    margin-right: 0;
+  }
+  #title {
+    width: 70%;
+  }
+  nav {
+    width: 50%;
+    margin-left: 0;
+  }
+  .header {
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+  }
+  #main-content {
+    border: 1px solid #dddddd;
+    padding: 25px;
+    width: 85%;
+    margin: 0, auto;
+  }
+}
+
+/* Large devices (laptops/desktops, 980px and up) */
+@media only screen and (min-width: 980px) {
+  #main-content {
+    border: 1px solid #dddddd;
+    padding: 35px;
+    width: 720px;
+    margin: 30px;
+  }
 }
