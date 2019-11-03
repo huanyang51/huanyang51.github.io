@@ -56,8 +56,8 @@ nav li {
 img#profile-image {
   float: left;
   margin: 20px 20px 20px 0;
-  height: 160px;
-  width: 120px;
+  height: auto;
+  width: 30%;
 }
 .clearfix::after {
   content: "";
@@ -74,9 +74,6 @@ a {
 }
 #nav-start {
   border-left: 0;
-}
-#nav-end {
-  padding-right: 0;
 }
 .entire-content {
   background-image: url(../images/trees.png);
@@ -194,6 +191,9 @@ body {
 
 /* Small devices (portrait tablets and large phones, 640px and up) */
 @media only screen and (min-width: 640px) and (max-width: 767px) {
+  .wrap {
+    width: 100%;
+  }
   .header {
     width: 100%;
     margin: 0;
@@ -213,11 +213,12 @@ body {
     float: none;
     text-align: center;
   }
-  #nav-end {
-    padding-right: 20px;
-  }
-  #title-area {
+  .title-area {
     float: none;
+  }
+  img#profile-image {
+    float: none;
+    width: 100%;
   }
   #main-content {
     border: 1px solid #dddddd;
@@ -226,7 +227,16 @@ body {
     margin: 0, auto;
   }
   .text-block {
-    width: 90%;
+    width: 100%;
+  }
+  .container-left,
+  .container-right {
+    float: none;
+    margin: 0;
+  }
+  .gallery-image {
+    width: 100%;
+    height: auto;
   }
 }
 
