@@ -135,6 +135,19 @@ input.submit {
   margin-right: 0;
   /* float: right; */
 }
+.container-left,
+.container-right {
+  width: 50%;
+  height: auto;
+}
+.gallery-image {
+  width: 90%;
+  height: auto;
+}
+
+.text-block {
+  width: 90%;
+}
 
 /* put text on top of gallery image */
 .container-left {
@@ -181,7 +194,33 @@ body {
 }
 
 /* Small devices (portrait tablets and large phones, 640px and up) */
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+  .header {
+    width: 100%;
+    margin: 0;
+  }
+  #title {
+    width: 100%;
+    margin: 0;
+  }
+  nav {
+    width: 100%;
+    margin: 0;
+    float: none;
+    text-align: center;
+  }
+  #title-area {
+    float: none;
+  }
+  #main-content {
+    border: 1px solid #dddddd;
+    padding: 25px;
+    width: 85%;
+    margin: 0, auto;
+  }
+  .text-block {
+    width: 90%;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -199,7 +238,7 @@ body {
   .header {
     width: 100%;
     margin: 0;
-    overflow: auto;
+    /* overflow: auto; */
   }
   #main-content {
     border: 1px solid #dddddd;
@@ -207,13 +246,9 @@ body {
     width: 85%;
     margin: 0, auto;
   }
-  /* .gallery-image {
-    width: 50%;
-    height: auto;
-  }
   .text-block {
-    width: 50%;
-  } */
+    width: 90%;
+  }
 }
 
 /* Large devices (laptops/desktops, 980px and up) */
@@ -223,18 +258,5 @@ body {
     padding: 35px;
     width: 65%;
     margin: 30px;
-  }
-  .container-left,
-  .container-right {
-    width: 50%;
-    height: auto;
-  }
-  .gallery-image {
-    width: 90%;
-    height: auto;
-  }
-
-  .text-block {
-    width: 90%;
   }
 }
