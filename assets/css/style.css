@@ -133,7 +133,6 @@ input.submit {
 #summer,
 #autumn2 {
   margin-right: 0;
-  /* float: right; */
 }
 .container-left,
 .container-right {
@@ -238,7 +237,6 @@ body {
   .header {
     width: 100%;
     margin: 0;
-    /* overflow: auto; */
   }
   #main-content {
     border: 1px solid #dddddd;
