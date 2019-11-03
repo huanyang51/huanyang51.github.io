@@ -205,7 +205,6 @@ body {
   }
   ul {
     padding: 0;
-    margin: 0;
   }
   nav {
     width: 100%;
@@ -213,7 +212,7 @@ body {
     float: none;
     text-align: center;
   }
-  .title-area {
+  #title-area {
     float: none;
   }
   img#profile-image {
