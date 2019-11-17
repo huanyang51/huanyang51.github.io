@@ -150,9 +150,11 @@ input.submit {
   position: relative;
   float: left;
 }
-.container-right {
+.container-right,
+.right-link {
   position: relative;
-  float: right;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .text-block {
@@ -167,8 +169,10 @@ input.submit {
 }
 a h2 {
   text-decoration: none;
-  text-decoration-line: none;
   color: #ffffff;
+}
+a:-webkit-any-link {
+  text-decoration: none;
 }
 /* change text color when hovered */
 a:hover {
@@ -241,10 +245,6 @@ body {
     width: 100%;
     height: auto;
   }
-}
-.container-right {
-  display: flex;
-  justify-content: flex-end;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
