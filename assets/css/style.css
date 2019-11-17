@@ -127,7 +127,7 @@ input.submit {
   width: 330px;
   margin: 40px 60px 0 0;
 }
-#summer,
+#gem,
 #autumn2 {
   margin-right: 0;
 }
@@ -193,8 +193,8 @@ body {
   height: 50px;
 }
 
-/* Small devices (portrait tablets and large phones, 640px and up) */
-@media only screen and (min-width: 640px) and (max-width: 767px) {
+/* Small devices (phones, portrait tablets and large phones, 767px and below) */
+@media only screen and (max-width: 767px) {
   .wrap {
     width: 100%;
   }
