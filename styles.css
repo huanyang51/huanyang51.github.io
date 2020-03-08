@@ -173,7 +173,7 @@ footer {
   background-color: orange;
 }
 
-.mdl-mega-footer__link-list a,
+.mdl-mini-footer__link-list,
 a,
 .mdl-layout__title,
 .mdl-button--accent.mdl-button--accent {
